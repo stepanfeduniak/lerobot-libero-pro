@@ -21,9 +21,9 @@
 📄 [Paper](https://arxiv.org/pdf/2510.03827) |
 💻 [Code](https://github.com/Zxy-MLlab/LIBERO-PRO) |
 🌐 [Webpage](https://zxy-mllab.github.io/LIBERO-PRO-Webpage/) |
+🤗 [Dataset](https://huggingface.co/datasets/Zxy-MLlab/LIBERO-PRO) |
 📱 [XHS](http://xhslink.com/o/5vmaip7wQCE/) |
 💬 [WeChat](https://github.com/Zxy-MLlab/LIBERO-OOD/blob/master/images/wechat.png)
-
 
 ---
 
