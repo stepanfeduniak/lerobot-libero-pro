@@ -7,7 +7,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Tuple, Any, Optional
 import subprocess
-from apache_beam.examples.dataframe.flight_delays import input_date
 
 
 # -----------------------------
@@ -345,7 +344,7 @@ class EnvironmentReplacePerturbator:
         with open(config_path, "r", encoding="utf-8") as f:
             self.config = yaml.safe_load(f) or {}
 
-    def _extract_current_env(self, task_suite_name: str, task_name: str) -> str | None:
+    def _extract_current_env(self, task_suite_name: str, task_name: str) -> Optional[str]:
         suite_cfg = self.config.get(task_suite_name, {})
         entry = suite_cfg.get(task_name)
         if entry is None:
